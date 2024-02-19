@@ -1,0 +1,26 @@
+input_dir: ../PROJECT_UIKIT_ios13/
+output_dir: ../PROJECT_UIKIT_ios13/
+strings:
+  inputs:
+    - ApplicationLayer/Localized/ru.lproj/Localized.strings
+    - ApplicationLayer/Localized/ru.lproj/Localized.stringsdict
+  outputs:
+    - templatePath: swiftgen-aclocalizedstring-template.stencil
+      output: ApplicationLayer/Localized/ACLocalizedString+Generated.swift
+xcassets:
+  inputs:
+    - ApplicationLayer/Assets/Assets.xcassets
+  outputs:
+    - templatePath: swiftgen-xcassets-template.stencil
+      params:
+        forceProvidesNamespaces: true
+      output: ApplicationLayer/Assets/Assets+Generated.swift
+      
+#fonts:
+#  inputs: ApplicationLayer/Fonts
+#  outputs:
+#    - templateName: swift5
+#      params:
+#          enumName: Fonts
+#          swiftIdentifier: normal
+#      output: ApplicationLayer/Fonts/Fonts+Generated.swift

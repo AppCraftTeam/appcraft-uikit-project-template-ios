@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "appcraft-localized-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppCraftTeam/appcraft-localized-ios.git",
+      "state" : {
+        "revision" : "e8114b0aa656fbaae087b2d48acc91e94983675b",
+        "version" : "2.0.0"
+      }
+    },
+    {
+      "identity" : "dpuikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DPLibs/DPUIKit.git",
+      "state" : {
+        "revision" : "8b1be95a2be4d57cf24df8eb244e43607f3853c5",
+        "version" : "3.0.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "8acda585eeb3b1ef72bffe0aa85f52a9bc16605c",
+        "version" : "5.15.6"
+      }
+    }
+  ],
+  "version" : 2
+}
